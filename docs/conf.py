@@ -11,7 +11,7 @@
 import os
 import sys
 sys.path.append(os.path.abspath("./_ext"))
-import sphinx_rtd_theme
+# import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -29,7 +29,6 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.autosectionlabel',
     'ytsphinx.youtube',
-    'sphinx_rtd_theme',
     'sphinxcontrib.spelling',
 
     # custom code in _ext/
@@ -51,7 +50,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
     # 'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
